@@ -1,0 +1,16 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  background-color: #1c1c1c;
+}
+
+/* divGlobal */
+.divGlobal {
+  
+}
