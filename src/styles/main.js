@@ -81,6 +81,8 @@ export const OdsBox = styled.div`
 export const OdsBoxOne = styled.div`
     height: 30vh;
     
+    margin-bottom: 10vh;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,17 +91,23 @@ export const OdsBoxOne = styled.div`
 export const OdsBoxTwo = styled.div`
     height: 30vh;
     
+    margin-bottom: 10vh;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
 `
 
 export const Ods = styled.div`
-    width: 12vw;
-    height: 25vh;
+    width: 22vw;
+    height: 30vh;
 
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 15px;
+
+    &:hover {
+        cursor: pointer;
+    }
 `
 
 export const OdsTitle = styled.h3``

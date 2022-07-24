@@ -37,7 +37,7 @@ export const ThemeBox = styled.div`
     width: 10%;
     
     position: absolute;
-    left: 35%;
+    left: 36.5%;
 
     display: flex;
     justify-content: space-around;
@@ -61,7 +61,7 @@ export const ThemeSelect = styled.img`
 `
 
 export const SearchBox = styled.div`
-    width: 30%;
+    width: 35%;
     
     position: absolute;
     left: 50%;
@@ -72,7 +72,7 @@ export const SearchBox = styled.div`
 `
 
 export const SearchInput = styled.input`
-    width: 25vw;
+    width: 30vw;
     height: 6vh;
 
     padding-left: 1.5vw;

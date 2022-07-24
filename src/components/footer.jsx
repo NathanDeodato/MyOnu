@@ -2,33 +2,44 @@ import React from "react"
 
 import { 
     Footer,
+    Hr,
     Copy,
     SociaMediaBox,
+    Nathan,
     ImgSocialMedia,
-    OnuMiniBox,
-    OnuMiniLogo,
     OnuBox,
-    OnuLogo
+    Onu
  } from "../styles/footer"
+
+import {
+    Insta,
+    GitHub,
+    NathanDeodato,
+    OnuLogo
+} from "../assets/assets"
 
 export default function fFooter() {
     return(
         <Footer>
+            <Hr/>
             <Copy>
-                © Copyright 2022 Deodatont.Dev
+                © Copyright 2022 NathanDeodato.Dev
             </Copy>
             <SociaMediaBox>
-                <ImgSocialMedia/>
-                <ImgSocialMedia/>
-                <ImgSocialMedia/>
-            </SociaMediaBox>
-            <OnuMiniBox>
-                <OnuMiniLogo 
-                src="{}"
+                <ImgSocialMedia 
+                src={Insta}
                 />
-            </OnuMiniBox>
+                <ImgSocialMedia
+                src={GitHub}
+                />
+                <Nathan
+                src={NathanDeodato}
+                />
+            </SociaMediaBox>
             <OnuBox>
-                <OnuLogo/>
+                <Onu
+                src={OnuLogo}
+                />
             </OnuBox>
         </Footer>
     )
