@@ -64,7 +64,7 @@ export default function fMain() {
             <Hr/>
             <OdsBox>
                 <OdsBoxOne>
-                    <Ods>
+                    <Ods className="OdsOne">
                         <OdsTitle>
                         
                         </OdsTitle>
@@ -72,7 +72,7 @@ export default function fMain() {
                         
                         </OdsText>
                     </Ods>
-                    <Ods>
+                    <Ods className="OdsTwo">
                         <OdsTitle>
                         
                         </OdsTitle>
@@ -80,7 +80,7 @@ export default function fMain() {
                         
                         </OdsText>
                     </Ods>
-                    <Ods>
+                    <Ods className="OdsThree">
                         <OdsTitle>
                         
                         </OdsTitle>
@@ -90,7 +90,7 @@ export default function fMain() {
                     </Ods>
                 </OdsBoxOne>
                 <OdsBoxTwo>
-                    <Ods>
+                    <Ods className="OdsFour">
                         <OdsTitle>
                         
                         </OdsTitle>
@@ -98,7 +98,7 @@ export default function fMain() {
                         
                         </OdsText>
                     </Ods>
-                    <Ods>
+                    <Ods className="OdsFive">
                         <OdsTitle>
                         
                         </OdsTitle>
@@ -106,7 +106,7 @@ export default function fMain() {
                         
                         </OdsText>
                     </Ods>
-                    <Ods>
+                    <Ods className="OdsSix">
                         <OdsTitle>
                         
                         </OdsTitle>
