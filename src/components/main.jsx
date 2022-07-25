@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 
 import { 
     Main,
@@ -14,10 +14,18 @@ import {
     OdsBox,
     OdsBoxOne,
     OdsBoxTwo,
-    Ods,
     OdsTitle,
-    OdsText
+    OdsImg
  } from "../styles/main"
+
+import {
+    OdsOne,
+    OdsTwo,
+    OdsThree,
+    OdsFour,
+    OdsFive,
+    OdsSix,
+} from "../styles/ods"
 
 import {
     OnuStart
@@ -64,56 +72,68 @@ export default function fMain() {
             <Hr/>
             <OdsBox>
                 <OdsBoxOne>
-                    <Ods className="OdsOne">
+                    <OdsOne 
+                    className="OdsOne"
+                    >
                         <OdsTitle>
-                        
+                            1. Inclusão Social
                         </OdsTitle>
-                        <OdsText>
-                        
-                        </OdsText>
-                    </Ods>
-                    <Ods className="OdsTwo">
+                        <OdsImg>
+                            
+                        </OdsImg>
+                    </OdsOne>
+                    <OdsTwo 
+                    className="OdsTwo"
+                    >
                         <OdsTitle>
-                        
+                            2. Educação de Qualidade
                         </OdsTitle>
-                        <OdsText>
+                        <OdsImg>
                         
-                        </OdsText>
-                    </Ods>
-                    <Ods className="OdsThree">
+                        </OdsImg>
+                    </OdsTwo>
+                    <OdsThree 
+                    className="OdsThree"
+                    >
                         <OdsTitle>
-                        
+                            3. Segurança
                         </OdsTitle>
-                        <OdsText>
+                        <OdsImg>
                         
-                        </OdsText>
-                    </Ods>
+                        </OdsImg>
+                    </OdsThree>
                 </OdsBoxOne>
                 <OdsBoxTwo>
-                    <Ods className="OdsFour">
+                    <OdsFour 
+                    className="OdsFour"
+                    >
                         <OdsTitle>
-                        
+                            4. Saúde e Bem Estar
                         </OdsTitle>
-                        <OdsText>
+                        <OdsImg>
                         
-                        </OdsText>
-                    </Ods>
-                    <Ods className="OdsFive">
+                        </OdsImg>
+                    </OdsFour>
+                    <OdsFive 
+                    className="OdsFive"
+                    >
                         <OdsTitle>
-                        
+                            5. Revitalização Urbana
                         </OdsTitle>
-                        <OdsText>
+                        <OdsImg>
                         
-                        </OdsText>
-                    </Ods>
-                    <Ods className="OdsSix">
+                        </OdsImg>
+                    </OdsFive>
+                    <OdsSix 
+                    className="OdsSix"
+                    >
                         <OdsTitle>
-                        
+                            6. Incentivo ao Comercio
                         </OdsTitle>
-                        <OdsText>
+                        <OdsImg>
                         
-                        </OdsText>
-                    </Ods>
+                        </OdsImg>
+                    </OdsSix>
                 </OdsBoxTwo>
             </OdsBox>
         </Main>

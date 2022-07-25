@@ -1,12 +1,24 @@
 import styled from "styled-components"
 
 export const Footer = styled.footer`
-    height: 60vh;
+    height: 50vh;
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 1025px) {
+        height: 45vh;
+    }
+
+    @media (max-width: 426px) {
+        height: 35vh;
+    }
+
+    @media (max-width: 376px) {
+        height: 30vh;
+    }
 `
 
 export const Hr = styled.hr`
@@ -35,35 +47,81 @@ export const Copy = styled.p`
     position: relative;
 
     top: 6vh;
-    left: -31vw;
+    left: -31%;
 
     color: #fff;
     font-size: 0.9em;
+    font-weight: bold;
+
+    @media (max-width: 1025px) {
+        top: 5vh;
+        left: -27%;
+    }
+
+    @media (max-width: 769px) {
+        left: -26.5%;
+
+        font-size: 0.7em;
+    }
+
+    @media (max-width: 426px) {
+        top: 2.5vh;
+        left: -26%;
+
+        font-size: 0.4em;
+    }
+
+    @media (max-width: 376px) {
+        top: 2vh;
+        left: -24%;
+    }
+
+    @media (max-width: 321px) {
+        top: 2vh;
+        left: -22%;
+    }
 `
 
 export const Nathan = styled.img`
-    width: 10vw;
+    width: 30%;
 
     &:hover{
         cursor: pointer;
+    }
+
+    @media (max-width: 376px) {
+        width: 35%;
     }
 `
 
 export const ImgSocialMedia = styled.img`
-    width: 3.5vw;
-    height: 7vh;
+    width: 8%;
 
     &:hover{
         cursor: pointer;
     }
+
+    @media (max-width: 426px) {
+        width: 12%;
+    }
+
+    @media (max-width: 376px) {
+        width: 15%;
+    }
 `
 
-export const OnuBox = styled.div``
+export const OnuBox = styled.div`
+
+`
 
 export const Onu = styled.img`
     width: 25vw;
     
     &:hover{
         cursor: pointer;
+    }
+
+    @media (max-width: 426px) {
+        width: 40vw; 
     }
 `
