@@ -47,7 +47,7 @@ export const Copy = styled.p`
     position: relative;
 
     top: 6vh;
-    left: -31%;
+    left: -30.5%;
 
     color: #fff;
     font-size: 0.9em;
