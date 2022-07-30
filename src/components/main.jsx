@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 
 import { 
     Main,
@@ -25,13 +25,21 @@ import {
     OdsFour,
     OdsFive,
     OdsSix,
+    OnuOdsButton,
+    OnuOdsLink
 } from "../styles/ods"
 
 import {
-    OnuStart
+    OnuStart,
+    Social,
+    Educacao,
+    Seguranca,
+    Saude,
+    Cidade,
+    Economia
 } from "../assets/assets"
 
-export default function fMain() {
+export default function cMain() {
     return(
         <Main>
             <StartBox>
@@ -78,9 +86,9 @@ export default function fMain() {
                         <OdsTitle>
                             1. Inclusão Social
                         </OdsTitle>
-                        <OdsImg>
-                            
-                        </OdsImg>
+                        <OdsImg
+                        src={Social}
+                        />
                     </OdsOne>
                     <OdsTwo 
                     className="OdsTwo"
@@ -88,9 +96,9 @@ export default function fMain() {
                         <OdsTitle>
                             2. Educação de Qualidade
                         </OdsTitle>
-                        <OdsImg>
-                        
-                        </OdsImg>
+                        <OdsImg
+                        src={Educacao}
+                        />
                     </OdsTwo>
                     <OdsThree 
                     className="OdsThree"
@@ -98,9 +106,9 @@ export default function fMain() {
                         <OdsTitle>
                             3. Segurança
                         </OdsTitle>
-                        <OdsImg>
-                        
-                        </OdsImg>
+                        <OdsImg
+                        src={Seguranca}
+                        />
                     </OdsThree>
                 </OdsBoxOne>
                 <OdsBoxTwo>
@@ -110,9 +118,9 @@ export default function fMain() {
                         <OdsTitle>
                             4. Saúde e Bem Estar
                         </OdsTitle>
-                        <OdsImg>
-                        
-                        </OdsImg>
+                        <OdsImg
+                        src={Saude}
+                        />
                     </OdsFour>
                     <OdsFive 
                     className="OdsFive"
@@ -120,9 +128,9 @@ export default function fMain() {
                         <OdsTitle>
                             5. Revitalização Urbana
                         </OdsTitle>
-                        <OdsImg>
-                        
-                        </OdsImg>
+                        <OdsImg
+                        src={Cidade}
+                        />
                     </OdsFive>
                     <OdsSix 
                     className="OdsSix"
@@ -130,11 +138,18 @@ export default function fMain() {
                         <OdsTitle>
                             6. Incentivo ao Comercio
                         </OdsTitle>
-                        <OdsImg>
-                        
-                        </OdsImg>
+                        <OdsImg
+                        src={Economia}
+                        />
                     </OdsSix>
                 </OdsBoxTwo>
+                <OnuOdsLink
+                href="https://myonu-ods.netlify.app/"
+                >
+                    <OnuOdsButton>
+                        Acessar as Ods's
+                    </OnuOdsButton>
+                </OnuOdsLink>
             </OdsBox>
         </Main>
     )

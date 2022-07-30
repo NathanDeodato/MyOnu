@@ -18,7 +18,7 @@ import {
     OnuLogo
 } from "../assets/assets"
 
-export default function fFooter() {
+export default function cFooter() {
     return(
         <Footer>
             <Hr/>

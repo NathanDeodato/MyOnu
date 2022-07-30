@@ -20,7 +20,7 @@ import {
     SearchButton
  } from "../styles/header"
 
-export default function fHeader() {
+export default function cHeader() {
     return(
         <Header>
             <BoxLogo>

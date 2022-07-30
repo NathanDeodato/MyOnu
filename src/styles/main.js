@@ -116,6 +116,11 @@ export const OdsBox = styled.div`
     width: 80%;
 
     margin-top: 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 `
 
 export const OdsBoxOne = styled.div`
@@ -172,4 +177,5 @@ export const OdsTitle = styled.h3`
 `
 
 export const OdsImg = styled.img`
+    width: 20%;
 `

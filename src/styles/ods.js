@@ -198,12 +198,22 @@ export const OdsSix = styled.div`
     }
 `
 
-export const odsTitleBox = styled.div``
+export const OnuOdsLink = styled.a`
+    width: 16%;
+    height: 8vh;
+`
 
-export const odsTitle = styled.h2``
+export const OnuOdsButton = styled.button`
+    width: 100%;
+    height: 8vh;
 
-export const odsTextsBox = styled.div``
+    border: solid 2px #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
 
-export const odsSubTitle = styled.h3``
-
-export const odsText = styled.p``
+    &:hover {
+        cursor: pointer;
+    }
+`
